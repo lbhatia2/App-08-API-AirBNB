@@ -16,9 +16,15 @@ struct ContentView: View {
                 NavigationLink(destination: Text(airBNBs.image)
                     .padding()){
                         Text(airBNBs.title)
+                            .foregroundColor(.white)
+                            .padding()
+                            .background(RoundedRectangle(cornerRadius: 15).fill(.pink))
+                        
                     }
             }
-            .navigationTitle("AirBNB")
+            .navigationTitle("AirBNBs ")
+            .padding()
+            .background(RoundedRectangle(cornerRadius: 10).fill(.blue))
         }
         .onAppear(perform: {
             AirBND()
@@ -40,7 +46,7 @@ struct ContentView: View {
                 if json["status"] == true {
                     let contents = json["data"].arrayValue
                     for item in contents {
-                        let aid = item["id"].stringValue
+                        let xaid = item["id"].stringValue
                         let title = item["title"].stringValue
                         let Image = item["image"].stringValue
                         let airBNBd = AirBNB(title: title, image: Image)
@@ -66,7 +72,7 @@ struct ContentView_Previews: PreviewProvider {
 
 struct AirBNB: Identifiable{
     let id = UUID()
-    var aid = String()
+    var xid = String()
     var title = String()
     var image = String()
 }
