@@ -11,6 +11,7 @@
 		B0425F1B289067C400A01CD3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0425F1A289067C400A01CD3 /* ContentView.swift */; };
 		B0425F1D289067C500A01CD3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0425F1C289067C500A01CD3 /* Assets.xcassets */; };
 		B0425F20289067C500A01CD3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0425F1F289067C500A01CD3 /* Preview Assets.xcassets */; };
+		B0425F432891919500A01CD3 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0425F422891919500A01CD3 /* SwiftyJSON.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		B0425F1A289067C400A01CD3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B0425F1C289067C500A01CD3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B0425F1F289067C500A01CD3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B0425F422891919500A01CD3 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 				B0425F18289067C400A01CD3 /* App_08_API_PPApp.swift */,
 				B0425F1A289067C400A01CD3 /* ContentView.swift */,
 				B0425F1C289067C500A01CD3 /* Assets.xcassets */,
+				B0425F422891919500A01CD3 /* SwiftyJSON.swift */,
 				B0425F1E289067C500A01CD3 /* Preview Content */,
 			);
 			path = "App 08 API PP";
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0425F432891919500A01CD3 /* SwiftyJSON.swift in Sources */,
 				B0425F1B289067C400A01CD3 /* ContentView.swift in Sources */,
 				B0425F19289067C400A01CD3 /* App_08_API_PPApp.swift in Sources */,
 			);
